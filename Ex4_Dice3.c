@@ -4,6 +4,10 @@
  
 int main(void) {
     int sum=0;
+    char str[50];
+    printf("What is your name?\n");
+    scanf("%s",str);
+    printf("Hello!%s\n",str);
     srand((unsigned int)time(NULL)); // 現在時刻の情報で初期化
     printf("Rolling the dice...\n");
     for(int i = 0; i < 2; i++) {
