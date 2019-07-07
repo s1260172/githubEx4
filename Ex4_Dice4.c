@@ -4,6 +4,7 @@
  
 int main(void) {
     int sum=0;
+    char str[50];
     printf("What is your name?\n");
     scanf("%s",str);
     printf("Hello!%s\n",str);
